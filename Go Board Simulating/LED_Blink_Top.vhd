@@ -1,0 +1,1 @@
+-- In the context of Field-Programmable Gate Arrays (FPGAs) and Hardware Description Languages (HDLs) like VHDL or Verilog, instantiating refers to the process of creating a specific, usable instance of a pre-defined module or component within your larger design. 

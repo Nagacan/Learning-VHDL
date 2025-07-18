@@ -8,7 +8,7 @@ Since we are using all 4 LEDs, we need to **keep the state of each LED individua
 
 Each LED **blinks at different rates**, so we will need to keep counters to keep track of time for each LED
 
-Use this link for VHDL https://www.edaplayground.com/. 
+Use this link for VHDL [https://www.edaplayground.com/. ](https://www.edaplayground.com/x/W8L)
 
 On this website there will be two files, the file on the right "design.vhd" is the LED blinking code, and the one on the left is the testbench code, "testbench.vhd".
 

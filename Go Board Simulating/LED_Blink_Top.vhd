@@ -16,7 +16,7 @@ library ieee;
 use ieee.std_logic_1163.all;
 
 -- creates an entity with input i_Clk, and 4 LED outputs
-entity LED_Blink_top is 
+entity LED_Blink_Top is 
   port (
     i_Clk : in std_logic;
     o_LED_1 : out std_logic;

@@ -4,4 +4,6 @@ If your design takes a clock input, the testbench will need to generate a simula
 <p align="center">
 <img width="402" height="194" alt="image" src="https://github.com/user-attachments/assets/df878a93-aad9-4f0f-b724-c67baee1370d" />
 
-Being able to testbenches are important, the best ones are self-checking, which means they can run and report a PASS or FAIL status, without us having to do anything else
+Being able to testbenches are important, the best ones are **self-checking**, which means they can run and report a PASS or FAIL status, without us having to do anything else
+
+Testbench code does not have to be synthesizable. 

@@ -13,4 +13,5 @@ Typically some number of inputs can be selected to a single output, but the reve
 
 All the code uses combinational code, no clocks needed in the design. Ensure that when you write your combinational code that your assignments are complete. An incomplete assignment can generate a latch, which you almost surely do not want to do. It is important to note that a mux is not actually a dedicated piece of logic on your FPGA. A mux is constructed out of Look-Up Table (LUT) elements inside your chip.
 
-**Latches** should never be used in FGPA design. 
+**Latches** should never be used in FGPA design. Here is an example of a Gated D latch. A Gated D latch has two inputs, D-data, and E-enable input. It has one ouput Q and only gets the value of D when Enable is 1. If enable is 0, output does not change, and keeps its previous value (latch; output is latched when enable is low)
+

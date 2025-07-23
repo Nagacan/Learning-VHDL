@@ -2,7 +2,6 @@ Latches are created when you create a combinational process or conditional assig
 
 This creates an incomplete assignment by the synthesis tools and the assignment of the output is not complete under all input possibilities:
 
-<p align="center">
 **Latch Creation with Incomplete Assignment in Combinational Process**
 
 ```

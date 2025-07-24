@@ -28,7 +28,7 @@ use ieee.std_logic_1164.all;
 entity Mux_2_to_1 is
   port (
     i_select : in std_logic;
-    i_data1 : in std_logic
+    i_data1 : in std_logic;
     i_data2 : in std_logic;
     o_data : out std_logic
     );
@@ -76,9 +76,27 @@ entity Mux_4_to_1 is
     i_data1 : in std_logic;
     i_data2 : in std_logic;
     i_data3 : in std_logic;
+    i_data4 : in std_logic;
     0_data : out std_logic
     );
 end entity Mux_4_to_1;
 
-archirwcture RTL of Mux_4to_1 is
+architecture RTL of Mux_4_to_1 is
 begin
+  o_data <= i_data1 when i_select = "00" else
+            i_data2 when i_select = "01" else
+            i_data3 when i_select = "10" else
+            i_data4;
+
+-- alternatively:
+  with i_select select
+    o_Data <= i_data1 when "00", i_data2 when "01", i_data3 when "10", i_data4 when others;
+-- Alternatively: p_Mux: process (i_select, i_data1, i_data2, i_data3, i_data4) is begin case i_Select is when "00" =>
+      o_data <= i__data1; when "01" =>
+      o_data <= i_data2; when "10" =>
+      o_data <= i_data3; when others =>
+      o_data <= i_data4;
+    end case;
+  end process p_Mux;
+
+end architecture RTL;

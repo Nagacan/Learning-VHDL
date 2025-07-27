@@ -1,3 +1,7 @@
+The difference between a latch and a flop flop is when the data inputs are sampled. A latch is always sampling it's data inputs, while a flop flop only samples it's data inputs on a clock edge. As a consequence latches do not have clock inputs. A flop flop's clock input will often be drawn with a triangle, denoting it as an edge sensitive input.
+
+A third classification is clocked latch. These devices sample the data input while the clock is at some level, logic one or logic zero. 
+
 Latches are created when you create a combinational process or conditional assignment in VHDL, or a combinational always block in Verilog with an output that is not assigned under all possible input conditions. 
 
 This creates an incomplete assignment by the synthesis tools and the assignment of the output is not complete under all input possibilities:

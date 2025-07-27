@@ -1,3 +1,5 @@
+https://www.electronics-tutorials.ws/combination/comb_2.html 
+
 A mux is like a selector, and acts like a railroad switch, where two possible source tracks can be connected to a single destination track. The railroad switch controls via some external control which train gets to connect to the destination track. This exact same concept is used with a 2-1 Mux. Two inputs can connect to a single output. 
 
 In other words, two inputs can be connected to a single output. 

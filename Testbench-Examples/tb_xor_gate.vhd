@@ -15,7 +15,6 @@ architecture behavior of xor_gate_test is
     -- inputs
     signal a : std_logic := '0';
     signal b : std_logic := '0';
-
     -- outputs
     signal c : std_logic;
 

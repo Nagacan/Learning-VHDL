@@ -34,17 +34,13 @@ begin
     -- stimulus process
     stim_proc : process
     begin
-        a <= '0'; b <= '0';
-        wait for 100 ns;
+        a <= '0'; b <= '0';    wait for 100 ns;
 
-        a <= '0'; b <= '1';
-        wait for 100 ns;
+        a <= '0'; b <= '1';    wait for 100 ns;
 
-        a <= '1'; b <= '0';
-        wait for 100 ns;
+        a <= '1'; b <= '0';    wait for 100 ns;
 
-        a <= '1'; b <= '1';
-        wait for 100 ns;
+        a <= '1'; b <= '1';    wait for 100 ns;
 
         wait;
     end process;

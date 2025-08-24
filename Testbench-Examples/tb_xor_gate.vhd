@@ -7,11 +7,9 @@ end xor_gate_test;
 architecture behavior of xor_gate_test is
     -- component declaration for the unit under test (UUT)
     component xor_gate
-        port(
-            a : in std_logic;
-            b : in std_logic;
-            c : out std_logic
-        );
+        port( a : in std_logic;
+              b : in std_logic; 
+              c : out std_logic);
     end component;
 
     -- inputs

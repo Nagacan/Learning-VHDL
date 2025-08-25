@@ -6,7 +6,7 @@ end tb_mux6;
 
 architecture Behavioral of tb_mux6 is
 
-component and_gate is
+component mux6 is
     Port ( A : in  STD_LOGIC;
            B : in  STD_LOGIC;
            C : out  STD_LOGIC);

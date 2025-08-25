@@ -1,10 +1,10 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity tb_andgate is
-end tb_andgate;
+entity tb_mux6 is
+end tb_mux6;
 
-architecture Behavioral of tb_andgate is
+architecture Behavioral of tb_mux6 is
 
 component and_gate is
     Port ( A : in  STD_LOGIC;

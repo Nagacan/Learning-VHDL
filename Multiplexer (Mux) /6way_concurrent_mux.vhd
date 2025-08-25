@@ -46,3 +46,12 @@ begin
        a5 when "100",
        a6 when others;
 end rtl;
+
+--can also use this entity as well
+--entity mux6to1 is
+--    Port (
+--        D0, D1, D2, D3, D4, D5 : in  STD_LOGIC;            -- each input is 1 bit wide
+--        S                      : in  STD_LOGIC_VECTOR (2 downto 0);  -- 3-bit select line
+--        Y                      : out STD_LOGIC             -- output is 1 bit
+--    );
+--end mux6to1;
